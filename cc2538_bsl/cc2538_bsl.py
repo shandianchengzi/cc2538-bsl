@@ -1089,6 +1089,8 @@ def cli_setup():
     return parser.parse_args()
 
 def main_cli():
+    global QUIET
+    
     args = cli_setup()
 
     force_speed = False
